@@ -1,0 +1,41 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+.vscode/
+
+# ASP.NET / Blazor
+wwwroot/css/
+wwwroot/js/
+wwwroot/dist/
+
+# Configuration
+appsettings.Development.json
+secrets.json
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Rider / JetBrains
+.idea/
+
+# dotnet watch working directory
+**/Properties/launchSettings.json
+
+# Auto-generated files by Blazor
+**/Generated/
+
+
+.vs/
