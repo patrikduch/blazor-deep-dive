@@ -1,5 +1,9 @@
-﻿<p>@status at @DateTime.Now</p>
+﻿<p>@server.Name is in @server.City </p>
 
 @code {
-    private string status = "Server is offline.";
+
+    private Server server = new Server{
+        Name = "Server one",
+        City = "Český Těšín",
+    };
 }
