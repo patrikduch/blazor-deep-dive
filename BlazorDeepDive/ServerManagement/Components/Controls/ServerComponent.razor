@@ -1,12 +1,14 @@
-﻿<div 
-    data-name="@server.Name"
+﻿<div data-name="@server.Name"
      data-status="@(server.IsOnline ? "online" : "offline")">
-    <p>@server.Name is in @server.City that is @(server.IsOnline ? "online" : "offline") </p>
+    <p>
+        @server.Name is in @server.City and is
+        <span style="color:@(server.IsOnline ? "green" : "red")">
+            @(server.IsOnline ? "online" : "offline")
+        </span>
+    </p>
 </div>
 
-
 @code {
-
     private Server server = new Server{
         Name = "Server one",
         City = "Český Těšín",
